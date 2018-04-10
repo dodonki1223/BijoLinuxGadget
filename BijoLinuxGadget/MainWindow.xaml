@@ -3,7 +3,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     Title="MainWindow" Margin="0,0,0,0" ShowInTaskbar="False" Background="Yellow" WindowStyle="None" AllowsTransparency="True" ResizeMode="CanResizeWithGrip">
 
-    <DockPanel x:Name="dpBijoLinux" Margin="1,1,1.2,1" ScrollViewer.HorizontalScrollBarVisibility="Hidden" ScrollViewer.VerticalScrollBarVisibility="Disabled" Background="Transparent" Height="534" VerticalAlignment="Top">
+    <DockPanel x:Name="dpBijoLinux" Margin="1,1,1.2,1" ScrollViewer.HorizontalScrollBarVisibility="Hidden" ScrollViewer.VerticalScrollBarVisibility="Disabled" Background="Transparent">
         <Canvas Name="cvsBijoLinux" Panel.ZIndex="1" Margin="0,0,0,0" VerticalAlignment="Top" >
             <TextBlock x:Name="txtCommandDescription" Padding="0,0,0,0" FontWeight="Bold" FontSize="16" Opacity="0.5" TextWrapping="Wrap" VerticalAlignment="Top" >
                 <TextBlock.Background>

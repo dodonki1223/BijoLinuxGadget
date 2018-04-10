@@ -272,6 +272,18 @@ Class MainWindow
 
     End Sub
 
+    ''' <summary>メインウィンドウのSizeChangedイベント</summary>
+    ''' <param name="sender">MainWindowオブジェクト</param>
+    ''' <param name="e">SizeChangedイベント</param>
+    ''' <remarks></remarks>
+    Private Sub MainWindow_SizeChanged(sender As Object, e As SizeChangedEventArgs) Handles Me.SizeChanged
+
+        'コマンドの説明文をウィンドウサイズに合わせる
+        '※枠にかからないようにするため「-3」を追加する 他に何かいいやり方は無いか？
+        txtCommandDescription.Width = Me.Width - 3
+
+    End Sub
+
     ''' <summary>メインウィンドウのMouseEnterイベント</summary>
     ''' <param name="sender">MainWindowオブジェクト</param>
     ''' <param name="e">MouseEnterイベント</param>
