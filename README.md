@@ -22,7 +22,7 @@ BijoLinuxGadget
 ```
 - BijoLinuxGadget.exeを実行する
 - ガジェットを右クリックまたは通知領域のアイコンを右クリック
-    - 画像のダウンロード数を設定し画像のダウンロードすること
+    - 画像のダウンロードを実行すること
 
 ### その他
 - [美女Linuxサイト](http://bijo-linux.com/)
