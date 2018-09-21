@@ -13,10 +13,10 @@
 ```
 BijoLinuxGadget
  ├ Image
- ｜  ├ Command
- ｜  ｜  └ vmstat.jpg
- ｜  └ NoImages
- ｜      └ NoImage.jpg
+ |  ├ Command
+ |  |  └ vmstat.jpg
+ |  └ NoImages
+ |      └ NoImage.jpg
  ├ BijoLinuxGadget.exe
  └ BijoLinuxInfo.xml
 ```
